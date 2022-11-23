@@ -7,7 +7,7 @@ class App extends Component {
     render() {
         return (
             <>
-                <Header buttonName = {"Some button updated!!!"} />
+                <Header />
                 <Forecast />
             </>
             
