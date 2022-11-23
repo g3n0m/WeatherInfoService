@@ -1,5 +1,4 @@
 <h2>Задача</h2>
-<hr>
 
 <p>Нужно создать простейший сервис просмотра информации о погоде.</p>
 
@@ -18,17 +17,17 @@
 </ol>
 
 <h2>Установка и запуск</h2>
-<hr>
 
 <ol>
-    <li>Клонировать репозиторий: <code>git clone https://github.com/g3n0m/_______.git</code></li>
+    <li>Клонировать репозиторий: <code>git clone https://github.com/g3n0m/WeatherInfoService.git</code></li>
     <li>В консоли в соответствующей папке проекта восстановить модули: <code>npm install</code></li>
     <li>Запуск сервера разработки: <code>npm run start</code></li>
     <li>Запуск build сборки: <code>npm run build</code></li>
+    <li>Добавить в корне проекта файл const.js с описанием переменных apiKey и geolocationKey следующего содержания:<br>
+<code>let apiKey = "ключ openweathermap" <br/> let geolocationKey = "ключ ipgeolocation" <br/> export { apiKey, geolocationKey }</code></li>
 </ol>
 
 <h2>Инструменты разработки</h2>
-<hr>
 
 <ol>
     <li>Сборщик пакетов webpack</li>
@@ -37,5 +36,3 @@
     <li>Использование API для получения данных с сервиса OpenWeather, определение геопозиции</li>
     <li>Адаптивный дизайн</li>
 </ol>
-
-
