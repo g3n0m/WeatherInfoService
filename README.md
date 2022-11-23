@@ -24,9 +24,9 @@
     <li>Запуск сервера разработки: <code>npm run start</code></li>
     <li>Запуск build сборки: <code>npm run build</code></li>
     <li>Добавить в корне проекта файл const.js с описанием переменных apiKey и geolocationKey следующего содержания:<br>
-        <code>let apiKey = "ключ openweathermap"</code> 
-        <code>let geolocationKey = "ключ ipgeolocation"</code> 
-        <code>export { apiKey, geolocationKey }</code>\
+        <code>let apiKey = "ключ openweathermap"</code><br> 
+        <code>let geolocationKey = "ключ ipgeolocation"</code><br> 
+        <code>export { apiKey, geolocationKey }</code><br>
     </li>
 </ol>
 
