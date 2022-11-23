@@ -1,0 +1,41 @@
+header {
+    display: flex;
+    justify-content: center;
+    background-color: #024872;
+    margin: 1vw;
+    border-radius: 1vw;
+}
+header h1 {
+    color: #fff;
+    font-size: 3rem;
+}
+
+@media all and (max-width: 950px) {
+    header {
+        border-radius: 3vw;
+    }
+}
+
+@media all and (max-width: 600px) {
+    header h1 {
+        font-size: 2rem;
+    }
+}
+
+@media all and (max-width: 400px) {
+    header {
+        border-radius: 3vw;
+    }
+    header h1 {
+        font-size: 1.7rem;
+    }
+}
+
+@media all and (max-width: 300px) {
+    header {
+        border-radius: 3vw;
+    }
+    header h1 {
+        font-size: 1.4rem;
+    }
+}

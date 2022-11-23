@@ -1,0 +1,67 @@
+.container {
+    display: flex;
+    justify-content: center;
+    /*background: red;*/
+}
+.weatherBox {
+    width: auto;
+    /*background: yellow;*/
+}
+.spaceBefore {
+    margin-top: 1em;
+}
+.spaceAfter {
+    margin-bottom: 2em;
+}
+.item {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    padding: .2em 0;
+}
+.item.underline {
+    border-bottom: 1px solid #eee;
+    padding-bottom: .5em;
+    margin-bottom: .5em;
+}
+.item div {
+    /*background: red;*/
+}
+.itemLeft, .itemRight {
+    font-size: 1.3em;
+    text-align: right;
+}
+.itemLeft p, .itemRight p {
+    margin: 0;
+}
+.itemRight select {
+    font-size: 1em;
+    border-radius: .5em;
+    cursor: pointer;
+}
+.hourly {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1em;
+}
+.hourly div {
+    border: 1px solid #eee;
+    padding: .5em;
+    border-radius: 1em;
+    white-space: nowrap;
+    text-align: center;
+}
+
+@media all and (max-width: 500px) {
+    .hourly {
+        grid-template-columns: 1fr 1fr;
+    }
+    .itemLeft, .itemRight {
+        font-size: 1em;
+    }
+    .hourly div {
+        font-size: .8em;
+    }
+}  
+
+     
